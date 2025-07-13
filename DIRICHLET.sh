@@ -2,7 +2,7 @@
 
 cd ./DIRICHLET_SIMPLES
 
-echo "Compilando e executando programa para encontrar os autovalores e autofunções..."
+echo -e "Compilando e executando programa para encontrar os autovalores e autofunções...\n\n"
 
 gfortran -o espectro_melhorado \
   constantes.f90 problema.f90 definicao_EDO.f90 integrador_rk4.f90 \
@@ -11,5 +11,5 @@ gfortran -o espectro_melhorado \
 
 gnuplot *.gp
 
-echo "Autovalores e autofunções encontradas e salvas!"
+echo "\n\nAutovalores e autofunções encontradas e salvas!"
 
