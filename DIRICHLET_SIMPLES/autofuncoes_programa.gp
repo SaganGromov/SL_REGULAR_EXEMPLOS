@@ -2,7 +2,7 @@ reset
 
 # Set terminal and output
 set terminal pngcairo size 1000,700 enhanced font 'Arial,14'
-set output 'autovalores.png'
+set output 'autofuncoes_encontradas.png'
 
 # General settings
 set title 'Autofunções obtidas pelo programa'

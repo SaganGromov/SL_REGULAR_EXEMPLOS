@@ -2,7 +2,7 @@ reset
 
 # Set terminal to PNG and output file
 set terminal pngcairo size 1000,700 enhanced font 'Arial,14'
-set output 'sin_functions.png'
+set output 'autofuncoes_exatas.png'
 
 # Plot settings
 set title 'Autofunções sen((n+1)πx)/((n+1)π), n = 0 a 6'
